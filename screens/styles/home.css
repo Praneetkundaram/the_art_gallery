@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    height: max-content;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%); /*background color*/
+    background-repeat: no-repeat;
+}
+.navigation-pane {
+    background-color: rgb(39, 68, 86);
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3%;
+    display: flex;
+    border-radius: 50px;
+    top: 2%;
+    height: 10vh;
+    box-shadow: rgba(255, 255, 255, 0.433) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.navigation-wrapper {
+    width: 100%;
+}
+.user_profile
+{
+    background:rgb(255, 163, 77) 24.4%;
+    position: absolute;
+    left: 93.5%;
+    font-size: 1.4rem;
+    padding: 1rem 1.2rem;
+    border-radius: 50px;
+    top: 2.9%;
+    box-shadow: rgba(255, 193, 101, 0.385) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+
+.left {
+    width: 2%;
+}
+.logo {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+
+.right {
+
+    width: 90%;
+    text-align: end;
+    margin-right: 1%;
+}
+
+.links {
+    font-family: 'Dancing Script', cursive;
+    margin-top: .5%;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 0 2%;
+    font-weight: 600;
+    color: #fff;
+}
+.container{
+    margin-top: 10%;
+}
+/* ------------Cards--------------- */
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 1% 1%;
+    /* margin-top: 7%; */
+    flex-direction: row;
+    font-family: Poppins;
+    /* text-align: justify; */
+    line-height: 1.5rem;
+    word-spacing: 5px;
+}
+.card {
+    /* background-color: rgba(19, 30, 37, 0.625) ; */
+    background-color: rgba(240, 248, 255, 0.477);
+    backdrop-filter: blur(20px);
+    height: 50vh;
+    width: 18%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 2%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.jobSeeker {
+    width: 10rem;
+    position: absolute;
+}
+
+.buttonPress {
+    position: absolute;
+    top: 82%;
+    border: none;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: .5rem 0;
+    width: 90%;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition-duration: 0.4s;
+}
+
+.buttonPress:hover {
+    background-color: rgba(235, 191, 155, 0.66);
+    color: rgb(255, 255, 255);
+}

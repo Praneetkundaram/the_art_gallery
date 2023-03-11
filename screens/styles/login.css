@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body {
+    background-repeat: no-repeat;
+    height: 88vh;
+    background: rgba(243, 241, 236, 0.57);
+
+}
+
+.backgroundimage {
+    max-height: 75vh;
+    image-orientation: flip;
+}
+
+.container {
+    padding: 0 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 5rem;
+    /* background-color: aqua; */
+
+}
+
+.leftcontainer {
+    position: relative;
+    font-weight: 100;
+    width: 50%;
+}
+
+.leftcontainer img {
+    width: 50%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.leftcontainer h3 {
+    position: absolute;
+    left: 62%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    color: rgb(255, 221, 3);
+}
+
+.rightcontainer {
+    width: 25%;
+    border: 2px solid rgba(34, 24, 24, 0.589);
+    background-color: transparent;
+    max-height: 74.6vh;
+    background-color: rgba(255, 255, 255, 0.141);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(10px);
+    border-radius: 0 10px 10px 0;
+}
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    font-size: larger;
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.827);
+}
+
+.inputfields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fields {
+    background-color: rgba(255, 248, 248, 0.721);
+    width: 80%;
+    margin: 2.5% 0;
+    padding: 2% 2%;
+    font-family: 'Dancing Script', cursive;
+    /* justify-content: center; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(158, 184, 255) !important;
+    /* background-color: transparent; */
+    border: none;
+}
+.submitfield{
+    font-family: 'Dancing Script', cursive;
+    width: 40%;
+    padding: .5% 0;
+    /* font-weight: 600; */
+    margin: 2% 0;
+    font-size: 1.2rem;
+    text-transform:capitalize;
+    background-color: rgb(255, 220, 106);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: none;
+    cursor:pointer;
+}
+.submitfield:hover
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: rgb(255, 250, 200);
+}
+.forgot_pass{
+    float: right;
+    text-decoration: none;
+    font-size: .7rem;
+    color: #fff;
+    box-shadow: #fff;
+    margin: 5%;
+    font-family: "Poppins";
+}
+.forgot_pass:hover{
+    color: maroon;
+}
